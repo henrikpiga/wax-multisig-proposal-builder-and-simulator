@@ -110,6 +110,7 @@ This repository includes a dedicated `/examples` folder with reusable components
 - `MultiSigDashboardSummary.tsx` — Summary dashboard of multi-sig activity
 - `MultiSigSecurityChecklist.tsx` — Security checklist for multi-sig setups
 - `AdvancedProposalTemplates.tsx` — Advanced templates with risk level and recommended use case
+- `ProposalCreationForm.tsx` — Placeholder for interactive proposal creation form
 
 More components will be added as the repo expands (full interactive builder, WharfKit examples, etc.).
 
