@@ -44,6 +44,50 @@ This blueprint exists to make multi-sig proposal creation **safe, educational, a
 
 ---
 
+## Common Multi-Sig Anti-Patterns & How to Avoid Them
+
+This section covers the most frequent and dangerous mistakes when working with multi-sig on WAX.
+
+### Critical Anti-Patterns
+
+| Anti-Pattern | Description | Risk Level | How to Detect | How to Fix |
+|--------------|-------------|------------|---------------|------------|
+| **Threshold higher than total weight** | Proposal can never be executed | Critical | Simulation shows insufficient weight | Lower threshold or add more keys/weight before creating the proposal |
+| **Single key controls high-value multi-sig** | No real multi-sig protection | High | Visual check shows one key with full weight | Add multiple keys with reasonable weights and a proper threshold |
+| **Overly complex permission requirements** | Hard for approvers to understand what they are signing | Medium-High | Proposal description is vague or overly technical | Write clear, human-readable descriptions of what the proposal does |
+| **No separation between daily and high-risk actions** | Everything uses the same multi-sig | Medium | All actions go through the same permission | Create specific linked permissions for high-impact actions |
+| **Missing backup approvers** | If key people are unavailable, proposals get stuck | Medium | No redundancy in approvers | Include backup approvers or slightly lower thresholds where safe |
+
+### Why These Patterns Are Dangerous on WAX
+
+- Failed or stuck proposals waste time and can damage trust in governance.
+- Overly complex setups lead to mistakes and missed opportunities.
+- Weak multi-sig structures give a false sense of security.
+
+---
+
+## Best Practices for Multi-Sig on WAX
+
+### General Recommendations
+
+1. **Start simple** — Begin with a clear, well-documented 2-of-3 or 3-of-5 structure.
+2. **Document everything** — Clearly explain in the proposal what action is being taken and why.
+3. **Test thoroughly** — Always simulate proposals before broadcasting them.
+4. **Use specific linked permissions** — Avoid giving broad `active` authority when possible.
+5. **Have backup approvers** — Plan for key people being unavailable.
+6. **Review regularly** — Re-evaluate your multi-sig structure as the team or project evolves.
+
+### By Use Case
+
+| Use Case              | Recommended Approach                              | Key Considerations                     |
+|-----------------------|---------------------------------------------------|----------------------------------------|
+| **DAO Governance**    | Strong multi-sig on owner + clear proposal process | High transparency and documentation   |
+| **Treasury Management** | Higher thresholds + specific transfer permissions | Strong safety + clear audit trail     |
+| **Game / dApp Ops**   | Balanced thresholds for speed vs safety           | Avoid overly complex flows for players|
+| **Infrastructure**    | Very conservative multi-sig with strong backups   | Maximum recoverability and auditability|
+
+---
+
 ## Examples Folder
 
 This repository includes a dedicated `/examples` folder with reusable components:
