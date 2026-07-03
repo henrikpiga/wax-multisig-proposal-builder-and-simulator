@@ -1,6 +1,6 @@
 # wax-multisig-proposal-builder-and-simulator — Multi-Sig Proposal Builder & Simulator
 
-> **Status:** 🔄 Starting Deep Refinement (PX Perfection Standard)  
+> **Status:** 🔄 In Active Deep Refinement (PX Perfection Standard)  
 > **Category:** Multi-Sig, Governance & Proposal Workflows (Core Antelope/EOSIO)  
 > **Parent Catalog:** [pixel-journey/wax-ecosystem-blueprint-catalog](https://github.com/pixel-journey/wax-ecosystem-blueprint-catalog)
 > **Benchmark Standard:** gkniftyheads-tracker quality + Pixel Journey retro-pixel excellence + PX Perfection Standard v1.0
@@ -44,29 +44,31 @@ This blueprint exists to make multi-sig proposal creation **safe, educational, a
 
 ---
 
-## Examples Folder (Planned)
+## Examples Folder
 
-This repository will include a dedicated `/examples` folder with reusable components such as:
+This repository includes a dedicated `/examples` folder with reusable components:
 
-- `ProposalBuilder.tsx` — Interactive proposal creation UI
-- `ProposalSimulator.tsx` — Live multi-sig simulation and threshold validation
-- `ProposalRiskAnalyzer.tsx` — Risk and warning display for proposals
-- `ProposalDiffViewer.tsx` — Before/after view of proposed changes
-- `MultiSigApprovalSimulator.tsx` — Simulate who needs to approve
-- `WharfKitProposalExample.tsx` — Full example of creating and executing a proposal on-chain
-- `PermissionSelector.tsx` — Reusable component for selecting required permissions
+- `MultiSigThresholdValidator.tsx` — Educational component for validating whether keys can meet a required threshold
+
+More components will be added as the repo expands (ProposalBuilder, ProposalSimulator, RiskAnalyzer, WharfKit integration examples, etc.).
+
+---
+
+## Machine-Optimized Spec (spec.yaml)
+
+This repository includes a comprehensive `spec.yaml` designed for AI coding agents to instantly understand the blueprint and generate high-quality extensions.
 
 ---
 
 ## Next Steps
 
-This repo is in early stages. We will expand it following the same high standards as `wax-permission-visualizer-and-editor`:
+We are expanding this repo following the same high standards as `wax-permission-visualizer-and-editor`:
 
-- Rich educational content
+- Rich educational content on multi-sig concepts and safety
 - Multiple levels of examples (simple → recommended → advanced)
-- Strong safety focus
-- Machine-readable spec.yaml
+- Strong safety focus with risk analysis
 - Production-ready, reusable components
+- Clear integration guidance
 
 ---
 
