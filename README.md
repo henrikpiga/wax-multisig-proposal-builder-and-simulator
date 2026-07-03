@@ -108,6 +108,7 @@ This repository includes a dedicated `/examples` folder with reusable components
 - `MultiSigKeyManager.tsx` — For managing keys in a multi-sig setup
 - `ProposalHistory.tsx` — Shows history of previous proposals
 - `MultiSigDashboardSummary.tsx` — Summary dashboard of multi-sig activity
+- `MultiSigSecurityChecklist.tsx` — Security checklist for multi-sig setups
 
 More components will be added as the repo expands (full interactive builder, WharfKit examples, etc.).
 
