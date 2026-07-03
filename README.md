@@ -50,6 +50,7 @@ This repository includes a dedicated `/examples` folder with reusable components
 
 - `MultiSigThresholdValidator.tsx` — Validates whether keys can meet a required multi-sig threshold
 - `MultiSigRiskAnalyzer.tsx` — Displays risk warnings and issues for a multi-sig configuration
+- `MultiSigApprovalSimulator.tsx` — Interactive simulator to toggle approvals and see if the threshold is met
 
 More components will be added as the repo expands (ProposalBuilder, ProposalSimulator, DiffViewer, WharfKit integration examples, etc.).
 
