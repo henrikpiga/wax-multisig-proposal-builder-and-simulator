@@ -100,6 +100,7 @@ This repository includes a dedicated `/examples` folder with reusable components
 - `WharfKitProposalExample.tsx` — Educational stub for WharfKit integration
 - `ProposalSimulator.tsx` — Combined simulator with real-time threshold status
 - `PermissionSelector.tsx` — For selecting permissions when building proposals
+- `MultiSigRiskSummary.tsx` — Overall risk summary for a multi-sig setup
 
 More components will be added as the repo expands (ProposalBuilder, full WharfKit examples, etc.).
 
