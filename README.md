@@ -106,6 +106,7 @@ This repository includes a dedicated `/examples` folder with reusable components
 - `MultiSigBestPracticesChecklist.tsx` — Checklist of best practices for multi-sig management
 - `ProposalExecutionStatus.tsx` — Shows execution status of a multi-sig proposal
 - `MultiSigKeyManager.tsx` — For managing keys in a multi-sig setup
+- `ProposalHistory.tsx` — Shows history of previous proposals
 
 More components will be added as the repo expands (full interactive builder, WharfKit examples, etc.).
 
