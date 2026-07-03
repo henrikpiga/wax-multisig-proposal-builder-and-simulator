@@ -1,0 +1,80 @@
+blueprint:
+  id: "wax-multisig-proposal-builder-and-simulator"
+  name: "Multi-Sig Proposal Builder & Simulator"
+  version: "1.0.0"
+  tier: 1
+  category: "governance-foundational"
+  status: "alpha-ready"
+  benchmark_target: "gkniftyheads-tracker + PX Perfection Standard v1.0"
+
+  description: |
+    An elegant, educational, and safe interactive tool for building, simulating, 
+    previewing, and executing multi-sig proposals on WAX. Features proposal creation, 
+    threshold validation, risk analysis, before/after diffs, and direct WharfKit integration.
+
+features:
+  core:
+    - interactive_proposal_builder
+    - live_multi_sig_simulation
+    - threshold_validation_engine
+    - proposal_risk_analysis
+    - before_after_diff_viewer
+    - wharfkit_proposal_execution
+  accessibility:
+    - reduced_motion_support
+    - keyboard_navigation
+    - screen_reader_friendly
+  theming:
+    - retro_pixel_glassmorphic_crt_theme
+  integration:
+    - wharfkit_session_signing
+    - embeddable_proposal_components
+    - full_standalone_demo
+
+recommended_stack:
+  framework: "Next.js 15 (App Router)"
+  language: "TypeScript (strict)"
+  styling: "Tailwind CSS + shadcn/ui + custom pixel CSS vars"
+  state: "Zustand + TanStack Query"
+  simulation: "Pure client-side JavaScript multi-sig engine"
+  blockchain: "Native fetch + WharfKit for on-chain actions"
+
+core_files:
+  - path: "lib/multiSigEngine.ts"
+    purpose: "Pure client-side threshold calculation, simulation, and safety rules"
+  - path: "components/ProposalBuilder.tsx"
+    purpose: "Interactive multi-sig proposal creation UI"
+  - path: "components/ProposalSimulator.tsx"
+    purpose: "Live simulation and validation of proposals"
+  - path: "spec.yaml"
+    purpose: "Machine-optimized specification for AI agents"
+
+integration_points:
+  - name: "Permission Visualizer"
+    description: "Load permissions directly from the permission visualizer tool"
+  - name: "DAO Tools / Governance dApps"
+    description: "Embed proposal builder for governance actions"
+  - name: "Treasury Management Tools"
+    description: "Safe multi-sig proposal creation for high-value actions"
+
+machine_instructions:
+  - "Generate full Next.js 15 scaffold with Zustand store and TypeScript strict mode"
+  - "Implement pure JavaScript multi-sig simulation engine with at least 10 safety rules"
+  - "Create interactive proposal builder with permission selection and threshold input"
+  - "Add live simulation UI with risk level indicators and warnings"
+  - "Include WharfKit session example for creating and executing real proposals on-chain"
+  - "Add accessibility features: reduced motion, ARIA labels, keyboard navigation"
+  - "Apply retro-pixel glassmorphic CRT aesthetic using custom CSS variables"
+
+extension_guidance:
+  - "To add new proposal types, extend the Proposal interface and update the simulation engine"
+  - "To support new chains, abstract the data layer in lib/waxRpc.ts"
+  - "To change visual style, modify CSS variables in globals.css"
+  - "To add new safety rules, extend the validateProposal function in lib/multiSigEngine.ts"
+
+future_roadmap_ideas:
+  - On-chain proposal preview with fee estimation
+  - Batch multi-sig proposal templates
+  - Integration with hardware wallet signing flows
+  - Advanced visual diff for complex permission changes
+  - Export proposal as PDF or governance report
