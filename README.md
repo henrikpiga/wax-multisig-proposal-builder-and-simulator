@@ -96,8 +96,9 @@ This repository includes a dedicated `/examples` folder with reusable components
 - `MultiSigRiskAnalyzer.tsx` — Displays risk warnings and issues for a multi-sig configuration
 - `MultiSigApprovalSimulator.tsx` — Interactive simulator to toggle approvals and see if the threshold is met
 - `MultiSigProposalTemplates.tsx` — Common multi-sig proposal templates for quick starts
+- `ProposalChangeDiff.tsx` — Shows before/after changes in a proposal for clear review
 
-More components will be added as the repo expands (ProposalBuilder, ProposalSimulator, DiffViewer, WharfKit integration examples, etc.).
+More components will be added as the repo expands (ProposalBuilder, ProposalSimulator, WharfKit integration examples, etc.).
 
 ---
 
