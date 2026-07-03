@@ -113,6 +113,7 @@ This repository includes a dedicated `/examples` folder with reusable components
 - `ProposalCreationForm.tsx` — Placeholder for interactive proposal creation form
 - `ProposalAnalytics.tsx` — Analytics on multi-sig proposals
 - `ProposalExport.tsx` — Export proposal data as JSON or text
+- `DetailedProposalSimulator.tsx` — More detailed simulator with live weight calculation
 
 More components will be added as the repo expands (full interactive builder, WharfKit examples, etc.).
 
