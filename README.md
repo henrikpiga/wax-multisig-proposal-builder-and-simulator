@@ -48,9 +48,10 @@ This blueprint exists to make multi-sig proposal creation **safe, educational, a
 
 This repository includes a dedicated `/examples` folder with reusable components:
 
-- `MultiSigThresholdValidator.tsx` — Educational component for validating whether keys can meet a required threshold
+- `MultiSigThresholdValidator.tsx` — Validates whether keys can meet a required multi-sig threshold
+- `MultiSigRiskAnalyzer.tsx` — Displays risk warnings and issues for a multi-sig configuration
 
-More components will be added as the repo expands (ProposalBuilder, ProposalSimulator, RiskAnalyzer, WharfKit integration examples, etc.).
+More components will be added as the repo expands (ProposalBuilder, ProposalSimulator, DiffViewer, WharfKit integration examples, etc.).
 
 ---
 
