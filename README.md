@@ -104,6 +104,7 @@ This repository includes a dedicated `/examples` folder with reusable components
 - `ProposalBuilder.tsx` — Placeholder for interactive proposal builder UI
 - `ProposalPreview.tsx` — Preview of a multi-sig proposal before submission
 - `MultiSigBestPracticesChecklist.tsx` — Checklist of best practices for multi-sig management
+- `ProposalExecutionStatus.tsx` — Shows execution status of a multi-sig proposal
 
 More components will be added as the repo expands (full interactive builder, WharfKit examples, etc.).
 
