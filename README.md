@@ -103,6 +103,7 @@ This repository includes a dedicated `/examples` folder with reusable components
 - `MultiSigRiskSummary.tsx` — Overall risk summary for a multi-sig setup
 - `ProposalBuilder.tsx` — Placeholder for interactive proposal builder UI
 - `ProposalPreview.tsx` — Preview of a multi-sig proposal before submission
+- `MultiSigBestPracticesChecklist.tsx` — Checklist of best practices for multi-sig management
 
 More components will be added as the repo expands (full interactive builder, WharfKit examples, etc.).
 
