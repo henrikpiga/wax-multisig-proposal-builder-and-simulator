@@ -97,8 +97,9 @@ This repository includes a dedicated `/examples` folder with reusable components
 - `MultiSigApprovalSimulator.tsx` — Interactive simulator to toggle approvals and see if the threshold is met
 - `MultiSigProposalTemplates.tsx` — Common multi-sig proposal templates for quick starts
 - `ProposalChangeDiff.tsx` — Shows before/after changes in a proposal for clear review
+- `WharfKitProposalExample.tsx` — Educational stub for WharfKit integration
 
-More components will be added as the repo expands (ProposalBuilder, ProposalSimulator, WharfKit integration examples, etc.).
+More components will be added as the repo expands (ProposalBuilder, ProposalSimulator, full WharfKit examples, etc.).
 
 ---
 
